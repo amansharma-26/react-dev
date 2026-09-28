@@ -1,6 +1,8 @@
-var App = () => {
+import Card from './components/Card.jsx'
+
+const App = () => {
   return <>
-    <h1>Hello, World!</h1>
+    <Card />
   </>
 }
 
