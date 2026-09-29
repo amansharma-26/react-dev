@@ -2,7 +2,10 @@ import Card from './components/Card.jsx'
 
 const App = () => {
   return <>
-    <Card />
+    <div className="parent">
+      <Card user='Aman'/>
+      <Card user='Mohit'/>
+    </div>
   </>
 }
 
